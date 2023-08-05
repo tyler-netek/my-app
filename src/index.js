@@ -10,12 +10,14 @@ import Contact from './Contact';
 import Footer from './Footer';
 ReactDOM.render(
   <React.StrictMode>
-    <Navbar />
-    <App />
-    <About />
-    <Resume />
-    <Contact />
-    <Footer />
+    <div>
+      <Navbar />
+      <App />
+      <About />
+      <Resume />
+      <Contact />
+      <Footer />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
