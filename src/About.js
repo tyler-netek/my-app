@@ -3,7 +3,6 @@ import './About.css';
 import retroImage from './images/prof-pic.jpg'; 
 
 function About() {
-  const [loadingText, setLoadingText] = useState('Loading...');
   const [typedText, setTypedText] = useState('');
 
   useEffect(() => {
@@ -20,8 +19,6 @@ function About() {
         setTypedText((prevText) => prevText + text.charAt(i));
         i++;
         setTimeout(typeText, 38); // Adjust the typing speed here (lower value for faster typing)
-      } else {
-        setLoadingText('');
       }
     };
 

@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 
 function App() {
-  const [loadingText, setLoadingText] = useState('Loading...');
   const [typedUsername, setTypedUsername] = useState('');
   const [showPassword, setShowPassword] = useState(false);
   const [typedPassword, setTypedPassword] = useState('Password: ');
