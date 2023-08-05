@@ -11,7 +11,7 @@ import Footer from './Footer';
 
 ReactDOM.render(
   <React.StrictMode>
-    <div id='root'>
+    <div>
       <Navbar />
       <App />
       <About />
