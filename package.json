@@ -2,7 +2,7 @@
   "homepage": "https://tyler-netek.github.io/my-app",
   "name": "my-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.2",
     "@fortawesome/free-brands-svg-icons": "^6.4.2",
@@ -23,6 +23,7 @@
     "querystring-es3": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.2",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
     "stream-browserify": "^3.0.0",
