@@ -16,19 +16,15 @@ function Resume() {
 
       <div className="resume-section">
         <h2>EDUCATION & CERTIFICATIONS</h2>
-        <ul>
-          <li>
-            M.S., Analytics (Data Science) – Georgia Institute of Technology, August 2023-Present
-          </li>
-          <li>
-            B.B.A., Management Information Systems – University of Houston, August 2019-May 2022
-            <ul>
-              <li>
-                Cumulative GPA: 3.98 / 4.00, Major GPA: 4.00 / 4.00 (Summa Cum Laude / Honors Program)
-              </li>
-            </ul>
-          </li>
-        </ul>
+        <p>
+          M.S., Analytics (Data Science) – Georgia Institute of Technology, August 2023-Present
+        </p>
+        <p>
+          B.B.A., Management Information Systems – University of Houston, August 2019-May 2022
+        </p>
+        <p>
+          Cumulative GPA: 3.98 / 4.00, Major GPA: 4.00 / 4.00 (Summa Cum Laude / Honors Program)
+        </p>
       </div>
 
       <div className="resume-section">
@@ -49,29 +45,32 @@ function Resume() {
       <div className="resume-section">
         <h2>EXPERIENCE</h2>
         <h3>Associate Software Engineer – Capital One, Richmond, VA | August 2023 - Present</h3>
-        <ul>
-          <li>Loading...</li>
-        </ul>
+        <p>Loading...</p>
 
         <h3>Cloud Analyst, Security & Controls – Oracle, Austin, TX | July 2022 – August 2023</h3>
-        <ul>
-          <li>Developed a Python application using Oracle Fusion Cloud REST APIs, Requests, Pandas, and NumPy to automate various consulting tasks. The application efficiently extracted JSON data using get requests and converted it to a dataframe in Excel. Utilizing NumPy, the code iterated through the data to generate payloads for post requests. This optimized automation significantly reduced processing time by approximately 75% or more depending on payload size, streamlining tasks like user creation, role provisioning, and security context type/value provisioning.</li>
-          <li>Automated folder un-nesting and updating file/folder naming conventions using Python scripting, regular expressions, and packages such as itertools, shutil, OS, and pathlib–then processed over 50 million files and 600 GB of data through a VM using Linux on the client's end. </li>
-          <li>Maintained 85%+ billable percentage as a consultant, provided expertise and guidance to clients in implementing, configuring, and optimizing Oracle Fusion Cloud applications to improve their business processes and achieve organizational goals.</li>
-          <li>Automated various tedious web-based tasks in the Oracle Fusion Cloud web application using the Playwright and Axios Libraries, Oracle Fusion Cloud REST APIs, and JavaScript scripting to save time on billable engagements.</li>        
-        </ul>
+        <p>
+          Developed a Python application using Oracle Fusion Cloud REST APIs, Requests, Pandas, and NumPy to automate various consulting tasks. The application efficiently extracted JSON data using get requests and converted it to a dataframe in Excel. Utilizing NumPy, the code iterated through the data to generate payloads for post requests. This optimized automation significantly reduced processing time by approximately 75% or more depending on payload size, streamlining tasks like user creation, role provisioning, and security context type/value provisioning.
+        </p>
+        <p>
+          Automated folder un-nesting and updating file/folder naming conventions using Python scripting, regular expressions, and packages such as itertools, shutil, OS, and pathlib–then processed over 50 million files and 600 GB of data through a VM using Linux on the client's end.
+        </p>
+        <p>
+          Maintained 85%+ billable percentage as a consultant, provided expertise and guidance to clients in implementing, configuring, and optimizing Oracle Fusion Cloud applications to improve their business processes and achieve organizational goals.
+        </p>
+        <p>
+          Automated various tedious web-based tasks in the Oracle Fusion Cloud web application using the Playwright and Axios Libraries, Oracle Fusion Cloud REST APIs, and JavaScript scripting to save time on billable engagements.
+        </p>
       </div>
 
       <div className="resume-section">
         <h2>PROJECTS</h2>
-        <ul>
-            <li>This Website (Built using React/Django)</li>
-            <li>Data Science Projects (Loading...)</li>
-            <li>Full Stack Web Development Projects (Loading...)</li>
-        </ul>
+        <p>This Website (Built using React/Django)</p>
+        <p>Data Science Projects (Loading...)</p>
+        <p>Full Stack Web Development Projects (Loading...)</p>
       </div>
     </div>
   );
 }
 
 export default Resume;
+
