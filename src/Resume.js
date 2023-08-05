@@ -7,7 +7,7 @@ function Resume() {
       <div id='resume' className="resume-header">
         <h1>Tyler J. Netek</h1>
         <p>
-          <a href="mailto:tyler.netek@outlook.com">tyler.netek@outlook.com</a> | <a>(832) 299-8200</a> |{' '}
+          <a href="mailto:tyler.netek@outlook.com">tyler.netek@outlook.com</a> | (832)299-8200 |{' '}
           <a href="https://www.linkedin.com/in/tylernetek/" target="_blank" rel="noopener noreferrer">
             https://www.linkedin.com/in/tylernetek/
           </a>
