@@ -34,7 +34,7 @@ function Resume() {
         </p>
         <p>
           <strong>Frameworks/Libraries:</strong> React/Redux, Node, Next, Express, D3, Pandas, NumPy,
-          Django, Flask, Yew.rs, Matplotlib, SciPy, Sci-Kit Learn, PySpark, Tidyverse, ggplot2
+          Django, Flask, Yew.rs, Matplotlib, Tidyverse, ggplot2
         </p>
         <p>
           <strong>Tools:</strong> GitHub/Git, AWS, PostgreSQL, MongoDB, Docker, Jenkins, GraphQL,
