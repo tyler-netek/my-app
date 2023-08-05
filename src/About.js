@@ -10,7 +10,7 @@ function About() {
       "I am an Associate Software Engineer at Capital One, and I'm also " +
       "currently a Master of Science - Analytics Student at Georgia Tech. " +
       "I'm fascinated with technology, and could not be more excited to see " +
-      "the progression of technology over the course of my lifetime. I'm originally from Houston" +
+      "the progression of technology over the course of my lifetime. I am currently a Full Stack Developer, but evidenced by my graduate degree, I'm very interested in Machine Learning/Artificial Intelligence and Data Science. I'm originally from Houston" +
       ", Texas, but I currently reside in Richmond, Virginia.";
     let i = 0;
 
