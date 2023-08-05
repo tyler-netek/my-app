@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './About.css';
-import retroImage from './images/prof-pic.jpg';
+import retroImage from './images/prof-pic.jpg'; 
 
 function About() {
   const [loadingText, setLoadingText] = useState('Loading...');
