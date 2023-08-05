@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.4eaaadd1.css",
-    "main.js": "/static/js/main.3d60f3e0.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "static/media/prof-pic.jpg": "/static/media/prof-pic.746c2ef87f28ac42d964.jpg",
-    "index.html": "/index.html",
-    "main.4eaaadd1.css.map": "/static/css/main.4eaaadd1.css.map",
-    "main.3d60f3e0.js.map": "/static/js/main.3d60f3e0.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/my-app.git/static/css/main.4eaaadd1.css",
+    "main.js": "/my-app.git/static/js/main.71ac28df.js",
+    "static/js/787.28cb0dcd.chunk.js": "/my-app.git/static/js/787.28cb0dcd.chunk.js",
+    "static/media/prof-pic.jpg": "/my-app.git/static/media/prof-pic.746c2ef87f28ac42d964.jpg",
+    "index.html": "/my-app.git/index.html",
+    "main.4eaaadd1.css.map": "/my-app.git/static/css/main.4eaaadd1.css.map",
+    "main.71ac28df.js.map": "/my-app.git/static/js/main.71ac28df.js.map",
+    "787.28cb0dcd.chunk.js.map": "/my-app.git/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4eaaadd1.css",
-    "static/js/main.3d60f3e0.js"
+    "static/js/main.71ac28df.js"
   ]
 }
