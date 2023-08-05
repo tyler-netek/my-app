@@ -1,0 +1,57 @@
+
+.about-container {
+    text-align: center;
+  }
+  
+  .about-header {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .matrix-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .matrix-text {
+    font-size: 20px;
+  }
+  
+  .matrix-cursor {
+    animation: blink 0.8s infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+
+  .about-image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .about-image {
+    width: 400px; 
+    height: auto; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+    transition: 1s;
+    cursor: pointer;
+    opacity: 80%;
+  }
+  .about-image:hover {
+    opacity: 100%;
+    transition: 1s;
+  }
+  
+ 
+  .about-text-container {
+    width: 80%; 
+    margin: 0 auto; 
+    text-align: left; 
+  }
+  

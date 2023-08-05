@@ -1,0 +1,86 @@
+.resume-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: black;
+    color: #00ff00;
+    font-family: "Courier New", monospace;
+    line-height: 1.5;
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 255, 0, 0.3);
+  }
+  
+  .resume-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .resume-header h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+  }
+  
+  .resume-header a {
+    color: #00ff00;
+    text-decoration: none;
+  }
+  
+  .resume-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #00ff00;
+    padding-bottom: 5px;
+  }
+  
+  .resume-section ul {
+    list-style: none;
+    padding-left: 20px;
+    margin: 0;
+  }
+  
+  .resume-section li {
+    margin-bottom: 5px;
+    position: relative;
+  }
+  
+  .resume-section li::before {
+    content: "▪ ";
+    color: #00ff00;
+    position: absolute;
+    left: -15px;
+    top: 0;
+  }
+  
+  .resume-section p::before {
+    content: "> ";
+  }
+  
+  .resume-header p {
+    font-size: 16px;
+  }
+  
+  .resume-header a:hover {
+    text-decoration: underline;
+  }
+  
+  .resume-header a:visited {
+    color: #00ff00;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .resume-container {
+      margin: 20px auto;
+      padding: 10px;
+    }
+  
+    .resume-section h2 {
+      font-size: 20px;
+    }
+  
+    .resume-section li::before {
+      left: 0;
+    }
+  }
+  
