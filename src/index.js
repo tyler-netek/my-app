@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Navbar from './navbar';
+import Navbar from './Navbar';
 import About from './About';
 import reportWebVitals from './reportWebVitals';
 import Resume from './Resume';
