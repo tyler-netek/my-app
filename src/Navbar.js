@@ -12,7 +12,6 @@ const Navbar = () => {
     { text: 'Contact', link: 'contact' },
   ];
 
-  
   const handleHomeClick = () => {
     window.location.reload();
   };
@@ -23,12 +22,10 @@ const Navbar = () => {
         {items.map((item, index) => (
           <li key={index}>
             {item.link === 'home' ? (
-              
               <a href="#home" className="link-item" onClick={handleHomeClick}>
                 <span className="typewriter-text retro-cursor">{item.text}</span>
               </a>
             ) : (
-              
               <Link
                 to={item.link}
                 spy={true}
@@ -42,7 +39,7 @@ const Navbar = () => {
             )}
           </li>
         ))}
-        
+        {/* Add Font Awesome icons for LinkedIn and GitHub */}
         <li>
           <a href="https://www.linkedin.com/in/tylernetek/" className="link-item">
             <FontAwesomeIcon icon={faLinkedin} className="icon" />
@@ -59,6 +56,7 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
 
 
 

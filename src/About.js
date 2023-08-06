@@ -18,7 +18,7 @@ function About() {
       if (i < text.length) {
         setTypedText((prevText) => prevText + text.charAt(i));
         i++;
-        setTimeout(typeText, 38); // Adjust the typing speed here (lower value for faster typing)
+        setTimeout(typeText, 38);
       }
     };
 
