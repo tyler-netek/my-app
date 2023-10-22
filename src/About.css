@@ -15,7 +15,8 @@
   
   .matrix-text {
     font-size: 20px;
-    width: 70%;
+    width: 60%;
+    text-align: center;
   }
   
   .matrix-cursor {

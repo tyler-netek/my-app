@@ -41,6 +41,7 @@ body {
 }
 
 .link-item:hover {
+  cursor: pointer;
   background-color: #007bff;
   color: #ffffff;
 }
