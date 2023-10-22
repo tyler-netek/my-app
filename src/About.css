@@ -15,7 +15,6 @@
   
   .matrix-text {
     font-size: 20px;
-    width: 60%;
   }
   
   .matrix-cursor {
@@ -51,7 +50,7 @@
   
  
   .about-text-container {
-    width: 80%; 
+    width: 60%; 
     margin: 0 auto; 
     text-align: left; 
   }
