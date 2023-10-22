@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import './retro-navbar.css';
@@ -9,6 +9,7 @@ const Navbar = () => {
     { text: 'Home', link: 'home' },
     { text: 'About', link: 'about' },
     { text: 'Resume', link: 'resume' },
+    { text: 'Projects', link: '/projects' }, 
     { text: 'Contact', link: 'contact' },
   ];
 
@@ -28,10 +29,6 @@ const Navbar = () => {
             ) : (
               <Link
                 to={item.link}
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
                 className="link-item"
               >
                 <span className="typewriter-text retro-cursor">{item.text}</span>
@@ -39,7 +36,6 @@ const Navbar = () => {
             )}
           </li>
         ))}
-        {/* Add Font Awesome icons for LinkedIn and GitHub */}
         <li>
           <a href="https://www.linkedin.com/in/tylernetek/" className="link-item">
             <FontAwesomeIcon icon={faLinkedin} className="icon" />
@@ -56,3 +52,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

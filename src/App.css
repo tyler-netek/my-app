@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   padding: 0;
@@ -5,9 +6,9 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #f8f8f8;
+  background-color: #67c6cb;
   font-family: "Courier New", monospace;
-  color: #349bdb;
+  color: #0091ff;
 }
 
 .App {
@@ -27,7 +28,7 @@ body {
 }
 
 .matrix-warning {
-  color: rgb(164, 152, 152);
+  color: rgb(196, 116, 116);
   font-size: 16px;
   opacity: 1;
   transition: opacity 1s ease-out;
@@ -63,7 +64,7 @@ body {
 }
 
 .access-granted:hover {
-  color: rgb(126, 116, 116);
+  color: rgb(215, 116, 116);
   transition: 3s;
 }
 
@@ -72,6 +73,7 @@ body {
     opacity: 0;
   }
 }
+
 
 @media screen and (max-width: 600px) {
   .matrix-title {
@@ -82,3 +84,5 @@ body {
     font-size: 16px;
   }
 }
+
+
