@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import './RetroNavbar.css';
+import './retro-navbar.css';
 
 const Navbar = () => {
   const items = [
