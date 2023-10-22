@@ -8,6 +8,7 @@ import reportWebVitals from './reportWebVitals';
 import Resume from './Resume';
 import Contact from './Contact';
 import Footer from './Footer';
+import ExpenseTracker from './ExpenseTracker';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,6 +18,7 @@ ReactDOM.render(
       <About />
       <Resume />
       <Contact />
+      <ExpenseTracker />
       <Footer />
     </div>
   </React.StrictMode>,
