@@ -11,6 +11,7 @@ const PlagiarismTracker = () => {
 
   return (
     <div className="plagiarism-container">
+      <h1>Plagiarism Checker AI Project</h1>
       <textarea
         className="text-input"
         placeholder="Enter your text here..."
