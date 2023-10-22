@@ -1,5 +1,8 @@
 .plagiarism-container {
-    margin: 20px;
+    width: 80%;
+    max-width: 600px;
+    margin: 40px auto 100px;
+    padding: 20px;
   }
   
   .text-input {
