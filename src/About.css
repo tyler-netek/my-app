@@ -15,8 +15,6 @@
   
   .matrix-text {
     font-size: 20px;
-    width: 60%;
-    text-align: center;
   }
   
   .matrix-cursor {
@@ -40,7 +38,7 @@
     width: 400px; 
     height: auto; 
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(95, 46, 195, 0.5);
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
     transition: 1s;
     cursor: pointer;
     opacity: 80%;
