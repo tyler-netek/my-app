@@ -15,35 +15,35 @@ function Resume() {
       </div>
 
       <div className="resume-section">
-        <h2>EDUCATION & CERTIFICATIONS</h2>
-        <p>
+        <h2 className="section-title">EDUCATION & CERTIFICATIONS</h2>
+        <p className="section-content">
           M.S., Analytics (Data Science) – Georgia Institute of Technology, August 2023-Present
         </p>
-        <p>
+        <p className="section-content">
           B.B.A., Management Information Systems – University of Houston, August 2019-May 2022
         </p>
-        <p>
+        <p className="section-content">
           Cumulative GPA: 3.98 / 4.00, Major GPA: 4.00 / 4.00 (Summa Cum Laude / Honors Program)
         </p>
       </div>
 
       <div className="resume-section">
-        <h2>SKILLS</h2>
-        <p>
+        <h2 className="section-title">SKILLS</h2>
+        <p className="section-content">
           <strong>Languages:</strong> JavaScript/TypeScript, Python, Rust, R, SQL, Bash, HTML/CSS
         </p>
-        <p>
+        <p className="section-content">
           <strong>Frameworks/Libraries:</strong> React/Redux, Node, Next, Express, D3, Pandas, NumPy,
           Django, Flask, Yew.rs, Matplotlib, Tidyverse, ggplot2
         </p>
-        <p>
+        <p className="section-content">
           <strong>Tools:</strong> GitHub/Git, AWS, PostgreSQL, MongoDB, Docker, Jenkins, GraphQL,
           Visual Studio Code
         </p>
       </div>
 
       <div className="resume-section">
-        <h2>EXPERIENCE</h2>
+        <h2 className="section-title">EXPERIENCE</h2>
         <h3>Associate Software Engineer – Capital One, Richmond, VA | August 2023 - Present</h3>
         <p>Loading...</p>
 
@@ -63,10 +63,10 @@ function Resume() {
       </div>
 
       <div className="resume-section">
-        <h2>PROJECTS</h2>
-        <p>This Website (Built using React/Django)</p>
-        <p>Data Science Projects - (IN PROGRESS) *Began* a plagiarism detection project during my MS Data Science Program, using Python's scikit-learn library. Created custom machine learning algorithms for text analysis, building strong and efficient text similarity models with scikit-learn. Demonstrated hands-on expertise in key AI tools, showing my proactive dedication to mastering popular data science technologies. </p>
-        <p>Full Stack Web Development Projects - Created a fully functional Pokemon Battle Simulator where you can select either Gengar or Nidorino, then battle the pokemon you did not select. There are
+        <h2 className="section-title">PROJECTS</h2>
+        <p className="section-content">This Website (Built using React/Django)</p>
+        <p className="section-content">Data Science Projects - (IN PROGRESS) *Began* a plagiarism detection project during my MS Data Science Program, using Python's scikit-learn library. Created custom machine learning algorithms for text analysis, building strong and efficient text similarity models with scikit-learn. Demonstrated hands-on expertise in key AI tools, showing my proactive dedication to mastering popular data science technologies.</p>
+        <p className="section-content">Full Stack Web Development Projects - Created a fully functional Pokemon Battle Simulator where you can select either Gengar or Nidorino, then battle the pokemon you did not select. There are
             actual stats from the games, status effects, it is full turn based with psuedo-computer player AI logic.</p>
       </div>
     </div>
