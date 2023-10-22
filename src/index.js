@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import Navbar from './Navbar';
 import About from './About';
-import Projects from './Projects';
 import reportWebVitals from './reportWebVitals';
 import Resume from './Resume';
 import Contact from './Contact';
@@ -16,7 +15,6 @@ ReactDOM.render(
       <Navbar />
       <App />
       <About />
-      
       <Resume />
       <Contact />
       <Footer />
