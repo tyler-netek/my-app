@@ -10,6 +10,7 @@ const ExpenseTracker = () => {
 
   return (
     <div className="expense-tracker-container">
+        <h1 style='text-align: center;'></h1>
       <form onSubmit={(e) => e.preventDefault()}>
         <label>
           Expense Name:
