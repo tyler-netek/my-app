@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   padding: 0;
@@ -6,9 +5,9 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #000;
-  font-family: "Courier New", monospace;
-  color: #00ff00;
+  background-color: #f8f8f8;
+  font-family: "Helvetica Neue", sans-serif;
+  color: #333;
 }
 
 .App {
@@ -24,34 +23,23 @@ body {
   font-size: 32px;
   margin-bottom: 20px;
   cursor: pointer;
-  transition: 2s;
-}
-
-.matrix-warning {
-  color: red;
-  font-size: 16px;
-  opacity: 1;
-  transition: opacity 1s ease-out;
-}
-
-.matrix-warning.fade-out {
-  opacity: 0;
+  color: #007bff;
+  transition: color 0.3s;
 }
 
 .matrix-title:hover {
-  opacity: 60%;
-  transition: 2s;
+  color: #0056b3;
+}
+
+.matrix-warning {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: red;
 }
 
 .matrix-text {
   font-size: 20px;
   cursor: pointer;
-  transition: 2s;
-}
-
-.matrix-text:hover {
-  opacity: 50%;
-  transition: 2s;
 }
 
 .matrix-cursor {
@@ -60,12 +48,12 @@ body {
 
 .access-granted {
   cursor: pointer;
-  transition: 3s;
+  font-weight: bold;
+  transition: color 0.3s;
 }
 
 .access-granted:hover {
   color: red;
-  transition: 3s;
 }
 
 @keyframes blink {
@@ -73,16 +61,4 @@ body {
     opacity: 0;
   }
 }
-
-
-@media screen and (max-width: 600px) {
-  .matrix-title {
-    font-size: 24px;
-  }
-
-  .matrix-text {
-    font-size: 16px;
-  }
-}
-
 

@@ -1,74 +1,52 @@
-
 .contact-form-container {
-    width: 80%;
-    max-width: 600px;
-    margin: 40px auto 100px;
-    padding: 20px;
-    background-color: black;
-    color: #00ff00;
-    font-family: "Courier New", monospace;
-    border: 2px solid #00ff00;
-    border-radius: 5px;
-    box-shadow: 0px 0px 20px rgba(0, 255, 0, 0.3);
-  }
-  
-  .contact-form-container h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .contact-form-container form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .contact-form-container input,
-  .contact-form-container textarea {
-    margin-bottom: 15px;
-    padding: 8px;
-    background-color: black;
-    color: #00ff00;
-    border: 1px solid #00ff00;
-    border-radius: 3px;
-    font-family: "Courier New", monospace;
-  }
-  
-  .contact-form-container textarea {
-    resize: none;
-    height: 150px;
-  }
-  
-  .contact-form-container button {
-    padding: 8px 16px;
-    background-color: #00ff00;
-    color: black;
-    border: none;
-    border-radius: 3px;
-    font-family: "Courier New", monospace;
-    cursor: pointer;
-    transition: background-color 0.2s, color 0.2s;
-  }
-  
-  .contact-form-container button:hover {
-    background-color: black;
-    color: #00ff00;
-  }
-  
-  .submitted-message {
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 10px;
-    text-align: center;
-  }
-  
-  .resume-footer {
-    margin-top: 60px; 
-    text-align: center;
-    font-size: 14px;
-    color: #00ff00;
-  }
+  width: 80%;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  color: #000;
+  font-family: "Helvetica Neue", sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
 
-  
-  
-  
-  
+.contact-form-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form-container input,
+.contact-form-container textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.contact-form-container textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.contact-form-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-family: "Helvetica Neue", sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-form-container button:hover {
+  background-color: #0056b3;
+}

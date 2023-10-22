@@ -1,4 +1,3 @@
-// App.js
 import React, { useEffect, useState } from 'react';
 import './App.css';
 
@@ -35,10 +34,10 @@ function App() {
         if (!showAccessGranted && i < passwordText.length) {
           setTypedPassword((prevText) => prevText + passwordText.charAt(i));
           i++;
-          setTimeout(typePasswordText, 90); // Adjust the typing speed here
+          setTimeout(typePasswordText, 90); 
         } else {
           setShowAccessGranted(true);
-          setShowMatrixWarning(false); // Hide the matrix warning when access is granted
+          setShowMatrixWarning(false); 
         }
       };
 
@@ -70,7 +69,6 @@ function App() {
 }
 
 export default App;
-
 
 
 

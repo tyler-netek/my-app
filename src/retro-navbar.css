@@ -24,8 +24,8 @@ body {
   list-style-type: none;
   padding: 0;
   display: flex;
-  flex-direction: row; /* Ensure horizontal display */
-  align-items: center; /* Center items horizontally */
+  flex-direction: row;
+  align-items: center;
 }
 
 li {
@@ -61,10 +61,10 @@ li {
   }
   
   .navbar-list li {
-    margin: 5px; /* Adjusted margin for mobile */
+    margin: 5px;
   }
   
   .navbar-list li:not(:last-child) {
-    margin-bottom: 10px; /* Add margin between list items on mobile */
+    margin-bottom: 10px;
   }
 }

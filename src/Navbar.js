@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import './retro-navbar.css';
+import './RetroNavbar.css';
 
 const Navbar = () => {
   const items = [
@@ -56,13 +56,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
-
-
-
-
-
-
-
-
