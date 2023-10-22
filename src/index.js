@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 import Resume from './Resume';
 import Contact from './Contact';
 import Footer from './Footer';
-import ExpenseTracker from './ExpenseTracker';
+import PlagiarismTracker from './PlagiarismTracker';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,7 +18,7 @@ ReactDOM.render(
       <About />
       <Resume />
       <Contact />
-      <ExpenseTracker />
+      <PlagiarismTracker />
       <Footer />
     </div>
   </React.StrictMode>,
