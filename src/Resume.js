@@ -7,7 +7,7 @@ function Resume() {
       <div id='resume' className="resume-header">
         <h1>Tyler J. Netek</h1>
         <p>
-          <a href="mailto:tyler.netek@outlook.com">tyler.netek@outlook.com</a> | (832)299-8200 |{' '}
+          <a href="mailto:tyler.netek@outlook.com">tyler.netek@outlook.com</a> | (832) 299-8200 |{' '}
           <a href="https://www.linkedin.com/in/tylernetek/" target="_blank" rel="noopener noreferrer">
             https://www.linkedin.com/in/tylernetek/
           </a>
@@ -65,7 +65,7 @@ function Resume() {
       <div className="resume-section">
         <h2 className="section-title">PROJECTS</h2>
         <p className="section-content">This Website (Built using React)</p>
-        <p className="section-content">Data Science Projects - (IN PROGRESS, long term undertaking) Working on a Dynamic Full Stack Applcation (A functional Pokedex), by integrating PokeAPI with Data Science Libraries and Fullstack JavaScript Libraries.
+        <p className="section-content">Data Science Projects - (IN PROGRESS) Working on a Dynamic Full Stack Application which is a Functional Pokedex, by integrating PokeAPI with Data Science Libraries and Full Stack JavaScript Libraries/Frameworks.
         </p>
         <p className="section-content">Full Stack Web Development Projects - Created a fully functional Pokemon Battle Simulator where you can select either Gengar or Nidorino, then battle the pokemon you did not select. There are
             actual stats from the games, status effects, it is full turn based with psuedo-computer player AI logic.</p>
