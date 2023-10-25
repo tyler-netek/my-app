@@ -65,8 +65,7 @@ function Resume() {
       <div className="resume-section">
         <h2 className="section-title">PROJECTS</h2>
         <p className="section-content">This Website (Built using React)</p>
-        <p className="section-content">Data Science Projects - (IN PROGRESS) *Began* a plagiarism detection project during my MS Data Science Program, using Python's scikit-learn library. Created custom machine learning algorithms for text analysis, building strong and efficient text similarity models with scikit-learn. Demonstrated hands-on expertise in key AI tools, showing my proactive dedication to mastering popular data science technologies.
-        Also - Currently working on preparing to do some Kaggle competitions!
+        <p className="section-content">Data Science Projects - (IN PROGRESS, long term undertaking) Working on a Dynamic Full Stack Applcation (A functional Pokedex), by integrating PokeAPI with Data Science Libraries and Fullstack JavaScript Libraries.
         </p>
         <p className="section-content">Full Stack Web Development Projects - Created a fully functional Pokemon Battle Simulator where you can select either Gengar or Nidorino, then battle the pokemon you did not select. There are
             actual stats from the games, status effects, it is full turn based with psuedo-computer player AI logic.</p>
