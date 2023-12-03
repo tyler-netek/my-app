@@ -67,6 +67,7 @@ function Resume() {
         <p className="section-content">This Website (Built using React)</p>
         <p className="section-content">Data Science Projects:
           1.) (IN PROGRESS) Working on a Dynamic Full Stack Application which is a Functional Pokedex, by integrating PokeAPI with Data Science Libraries and Full Stack JavaScript Libraries/Frameworks.
+          <hr>
           2.) Using Python, Matplotlib, and Seaborn I created a data analysis project to aid in selecting a competitive pokemon team based on type/generation through the creation of comparative boxplots and barcharts using a pokemon dataset from Kaggle.
         </p>
             
