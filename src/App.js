@@ -16,7 +16,7 @@ function App() {
       if (i < usernameText.length) {
         setTypedUsername((prevText) => prevText + usernameText.charAt(i));
         i++;
-        setTimeout(typeUsernameText, 90); 
+        setTimeout(typeUsernameText, 90);
       } else {
         setShowPassword(true);
       }
@@ -34,7 +34,7 @@ function App() {
         if (!showAccessGranted && i < passwordText.length) {
           setTypedPassword((prevText) => prevText + passwordText.charAt(i));
           i++;
-          setTimeout(typePasswordText, 90); 
+          setTimeout(typePasswordText, 90);
         } else {
           setShowAccessGranted(true);
           setShowMatrixWarning(false);
@@ -47,17 +47,17 @@ function App() {
 
   return (
     <div className="App">
-      <header id='home' className="App-header">
+      <header id="home" className="App-header">
         {showMatrixWarning && (
           <div className="matrix-warning">
             Welcome back, Tyler. Please verify your identity by logging in.
           </div>
         )}
-        <h5 className='matrix-title'>Login:</h5>
+        <h5 className="matrix-title">Login:</h5>
         <p className="matrix-text">
           <span>{typedUsername}</span>
           <br />
-          <span>{typedPassword}</span>
+          <span>***********</span>
           <span className="matrix-cursor">_</span>
         </p>
         {showAccessGranted && (
@@ -69,6 +69,7 @@ function App() {
 }
 
 export default App;
+
 
 
 
