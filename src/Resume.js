@@ -75,7 +75,7 @@ function Resume() {
             </p>
             
             
-        <p className="section-content">Full Stack Web Development Projects - Created a fully functional Pokemon Battle Simulator where you can select either Gengar or Nidorino, then battle the pokemon you did not select. There are
+        <p className="section-content">Full Stack Web Development Projects: Created a fully functional Pokemon Battle Simulator where you can select either Gengar or Nidorino, then battle the pokemon you did not select. There are
             actual stats from the games, status effects, it is full turn based with psuedo-computer player AI logic.</p>
       </div>
     </div>
