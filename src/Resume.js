@@ -17,20 +17,27 @@ function Resume() {
       <div className="resume-section">
         <h2 className="section-title">EDUCATION & CERTIFICATIONS</h2>
         <p className="section-content">
-          M.S., Analytics (Data Science) – Georgia Institute of Technology, August 2023 - (August 2025 or December 2025)
+          M.S., Analytics (Data Science) – Georgia Institute of Technology, August 2023 - (May 2025 or December 2025)
+        </p>
+        <p className="section-content">
+          Cumulative GPA: 4.00 / 4.00, Major GPA: 4.00 / 4.00
         </p>
         <p className="section-content">
           B.B.A., Management Information Systems – University of Houston, August 2019 - May 2022
         </p>
         <p className="section-content">
-          Cumulative GPA: 4.00 / 4.00, Major GPA: 4.00 / 4.00 (Summa Cum Laude / Honors Program)
+          Cumulative GPA: 3.98 / 4.00, Major GPA: 4.00 / 4.00 (Summa Cum Laude / Honors Program)
         </p>
         <p className="section-content">
           Notable Courses:
+          <p> Georgia Tech: </p>
           <ul>
             <li>Computing for Data Analytics (Python, Matplotlib, BeautifulSoup, Bokeh, Seaborn, Pandas, SQL, NumPy, SciPy)</li>
             <li>Analysis of Unstructured Data (NLP, Machine Learning, Web Scraping)</li>
             <li>Intro. to Analytics Modeling (R, classification, clustering, change detection, time series modeling, regression models, design of experiments, probability distributions, probability-based models and simulation, PCA, and optimization)</li>
+          </ul>
+          <p> University of Houston: </p>
+          <ul>
             <li>Information Systems Development Tools (Java)</li>
             <li>Network Security and Infrastructure (Networking)</li>
             <li>Programming for Business Analytics (R, ggplot2, tidyverse, shiny, readr, tibble, caret)</li>
@@ -109,11 +116,13 @@ function Resume() {
           2.) Using Python, Matplotlib, and Seaborn I created a data analysis project to aid in selecting a competitive pokemon team based on type/generation through the creation of comparative boxplots and barcharts using a pokemon dataset from Kaggle.
         </p>
 
-        <p className="section-content">Full Stack Web Development Projects: Created a fully functional Pokemon Battle Simulator where you can select either Gengar or Nidorino, then battle the pokemon you did not select. There are actual stats from the games, status effects, it is full turn based with psuedo-computer player AI logic.</p>
+        <p className="section-content">Full Stack Web Development Projects:</p>
+          <p>Created a fully functional Pokemon Battle Simulator where you can select either Gengar or Nidorino, then battle the pokemon you did not select. There are actual stats from the games, status effects, it is full turn based with psuedo-computer player AI logic.</p>
       </div>
     </div>
   );
 }
 
 export default Resume;
+
 
