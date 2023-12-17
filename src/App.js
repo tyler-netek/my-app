@@ -1,16 +1,15 @@
-// App.js
 import React, { useEffect, useState } from 'react';
 import './App.css';
 
 function App() {
-  const [typedUsername, setTypedUsername] = useState('');
+  const [typedUsername, setTypedUsername] = useState('Username: ');
   const [showPassword, setShowPassword] = useState(false);
   const [typedPassword, setTypedPassword] = useState('Password: ');
   const [showAccessGranted, setShowAccessGranted] = useState(false);
   const [showMatrixWarning, setShowMatrixWarning] = useState(true);
 
   useEffect(() => {
-    const usernameText = 'Username: Tyler.Netek';
+    const usernameText = 'Tyler.Netek';
     let i = 0;
 
     const typeUsernameText = () => {
@@ -35,10 +34,10 @@ function App() {
         if (!showAccessGranted && i < passwordText.length) {
           setTypedPassword((prevText) => prevText + passwordText.charAt(i));
           i++;
-          setTimeout(typePasswordText, 90); // Adjust the typing speed here
+          setTimeout(typePasswordText, 90); 
         } else {
           setShowAccessGranted(true);
-          setShowMatrixWarning(false); // Hide the matrix warning when access is granted
+          setShowMatrixWarning(false);
         }
       };
 
