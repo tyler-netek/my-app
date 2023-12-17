@@ -3,7 +3,7 @@
   max-width: 800px;
   margin: 40px auto;
   padding: 20px;
-  background: '../public/tower-desktop.jpg'
+  background-image: url('./images/tower-desktop.jpg')
   color: #333;
   font-family: Arial, sans-serif;
   border: 2px solid #ccc;
