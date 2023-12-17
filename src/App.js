@@ -14,7 +14,7 @@ function App() {
 
     const typeUsernameText = () => {
       if (i < usernameText.length) {
-        setTypedUsername((prevText) => prevText + usernameText.charAt(i));
+        setTypedUsername((prevText) => prevText + usernameText.charAt(usernameText.length));
         i++;
         setTimeout(typeUsernameText, 90);
       } else {
