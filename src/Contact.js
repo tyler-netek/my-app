@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import './Contact.css';
+import main from './images/main.png';
+import search from './images/searchbar.png';
+import chart from './images/chart.png';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -86,9 +89,9 @@ const Contact = () => {
     </div>
     <div class="image-container">
         <hr />
-        <img src="./images/main.png" alt="Home Page (Predictr)" />
-        <img src="./images/searchbar.png" alt="Search Results (Predictr)" />
-        <img src="./images/chart.png" alt="Chart (Predictr)" />
+        <img src={main} alt="Home Page (Predictr)" />
+        <img src={search} alt="Search Results (Predictr)" />
+        <img src={chart} alt="Chart (Predictr)" />
         <hr />
     </div>
   );
