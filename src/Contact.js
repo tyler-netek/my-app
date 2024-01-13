@@ -84,6 +84,13 @@ const Contact = () => {
       </form>
       {submitted && <div className="submitted-message">Submitted!</div>}
     </div>
+    <div class="image-container">
+      <hr>
+      <img src="./images/main.png" alt="Home Page (Predictr)">
+      <img src="./images/searchbar.png" alt="Search Results (Predictr)">
+      <img src="./images/chart.png" alt="Chart (Predictr)">
+      <hr>
+    </div>
   );
 };
 
