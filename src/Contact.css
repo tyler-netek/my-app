@@ -51,3 +51,20 @@
 .contact-form-container button:hover {
   background-color: #0056b3;
 }
+
+.image-container {
+      text-align: center;
+}
+
+
+hr {
+  width: 80%;
+  margin: 10px auto;
+  border: 1px solid black;
+}
+
+    
+img {
+  width: 150px; 
+  margin: 5px;
+}
