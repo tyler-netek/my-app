@@ -16,7 +16,7 @@ ReactDOM.render(
       <About />
       <Resume />
       <Contact />
-      <Photos/ >
+      <Photos />
       <Footer />
     </div>
   </React.StrictMode>,
