@@ -115,6 +115,10 @@ function Resume() {
         <p>
           2.) Using Python, Matplotlib, and Seaborn I created a data analysis project to aid in selecting a competitive pokemon team based on type/generation through the creation of comparative boxplots and barcharts using a pokemon dataset from Kaggle.
         </p>
+        <p>
+        Zillow Housing Prices Predictive Modeling Full Stack Application (Predictr):
+- This project leverages scikit-learn and Python data science tools to predict housing market trends in Richmond, VA over 1, 5, and 10 years, with a unique focus on real-time data acquisition through web scraping of Zillow search results cards. Employing advanced machine learning models, including Linear Regression, Decision Trees, Random Forests, and Gradient Boosting, the project encompasses thorough feature engineering and model optimization. The Full Stack Application integrates these models, providing an interactive platform for users to explore and analyze forecasted housing market scenarios. Efforts are concentrated on efficient data manipulation and insightful visualization using matplotlib, ensuring users receive personalized insights and an in-depth understanding of the Richmond, VA housing market dynamics.
+        </p>
 
         <p className="section-content">Full Stack Web Development Projects:</p>
           <p>Created a fully functional Pokemon Battle Simulator where you can select either Gengar or Nidorino, then battle the pokemon you did not select. There are actual stats from the games, status effects, it is full turn based with psuedo-computer player AI logic.</p>
