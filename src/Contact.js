@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
 import './Contact.css';
-import main from './images/main.png';
-import search from './images/searchbar.png';
-import chart from './images/chart.png';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
