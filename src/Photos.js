@@ -8,13 +8,13 @@ const Photos = () => {
   return (
     <div className="container">
       <div className="image-container">
-        <img src={main} />
+        <img src={main} alt="home page" />
       </div>
       <div className="image-container">
-        <img src={search} />
+        <img src={search} alt="search bar" />
       </div>
       <div className="image-container">
-        <img src={chart} />
+        <img src={chart} alt="matplotlib chart" />
       </div>
     </div>
   );
