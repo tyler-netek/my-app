@@ -4,7 +4,7 @@ import search from './images/searchbar.png';
 import React from 'react';
 import './Photos.css';
 
-const App = () => {
+const Photos = () => {
   return (
     <div className="container">
       <div className="image-container">
