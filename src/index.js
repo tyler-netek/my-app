@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import Resume from './Resume';
 import Contact from './Contact';
 import Footer from './Footer';
+import Photos from './Photos';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,6 +16,7 @@ ReactDOM.render(
       <About />
       <Resume />
       <Contact />
+      <Photos/ >
       <Footer />
     </div>
   </React.StrictMode>,
@@ -22,5 +24,3 @@ ReactDOM.render(
 );
 
 reportWebVitals();
-
-
