@@ -8,13 +8,13 @@ const Photos = () => {
   return (
     <div className="container">
       <div className="image-container">
-        <img src={main} alt="Image 1" />
+        <img src={main} />
       </div>
       <div className="image-container">
-        <img src={search} alt="Image 2" />
+        <img src={search} />
       </div>
       <div className="image-container">
-        <img src={chart} alt="Image 3" />
+        <img src={chart} />
       </div>
     </div>
   );
