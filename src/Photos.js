@@ -9,7 +9,7 @@ const Photos = () => {
     
     <div className="container">
       <h1 className="title">Zillow Real Estate Market Predictive Modeling Full Stack Application:</h1>
-      <br />
+      <hr></hr>
       <div className="image-container">
         <img src={main} alt="home page" />
       </div>
