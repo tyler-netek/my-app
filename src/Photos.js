@@ -6,8 +6,10 @@ import './Photos.css';
 
 const Photos = () => {
   return (
+    
     <div className="container">
       <h1 className="title">Zillow Real Estate Market Predictive Modeling Full Stack Application:</h1>
+      <br />
       <div className="image-container">
         <img src={main} alt="home page" />
       </div>

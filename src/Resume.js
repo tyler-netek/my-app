@@ -75,13 +75,17 @@ function Resume() {
           - Conducted comprehensive code reviews, identifying areas for improvement and implementing best practices to enhance codebase efficiency and maintainability. Applied expertise in React for front-end development and Express for back-end development.
         </p>
         <p>
-          - Implemented Python-based solutions leveraging FastAPI for efficient API development, contributing to the optimization of Capital One's internal processes.
+          - Implemented PySpark for large-scale data transformation and manipulation, leveraging distributed computing capabilities for efficient processing. Single-handedly tackled a
+formidable challenge by resolving a long-standing application-breaking bug through exhaustive optimization and development of PySpark migrations. This initiative ensured
+seamless data processing and prevented workflow interruptions, demonstrating my unique problem-solving abilities and expertise in utilizing Python.
         </p>
         <p>
-          - Engaged in continuous learning and professional development to stay abreast of emerging technologies and industry trends, including proficiency in NumPy and Pandas for data manipulation and analysis within software solutions.
+          - Continuously learning and implementing cutting-edge data science techniques and algorithms to enhance the capabilities of machine learning models and data processing
+pipelines. Solved problems across the entire data pipeline, from data engineering to data science/analytics, and backend architecture.
         </p>
         <p>
-          - AWS Solutions Architect Certified, bringing architectural expertise to the team, optimizing system performance, and ensuring alignment with AWS best practices.
+          - Deployed and managed containerized applications on AWS using services such as Fargate, EC2, and ECS, optimizing for scalability and reliability, and leveraged AWS
+Lambda for serverless computing, automating tasks and enhancing system efficiency. Earned AWS Solutions Architect - Associate Certification.
         </p>
 
         <h3>Cloud Analyst, Security & Controls – Oracle, Austin, TX | July 2022 – August 2023</h3>
@@ -107,21 +111,22 @@ function Resume() {
 
       <div className="resume-section">
         <h2 className="section-title">PROJECTS</h2>
-        <p className="section-content">This Website (Built using React)</p>
-        <p className="section-content">Data Science Projects:</p>
         <p>
-          1.) (IN PROGRESS) Working on a Dynamic Full Stack Application which is a Functional Pokedex, by integrating PokeAPI with Data Science Libraries and Full Stack JavaScript Libraries/Frameworks.
+          - Currently crafting a comprehensive Pokedex application that seamlessly integrates the PokeAPI with cutting-edge Data Science Libraries and Full Stack JavaScript frameworks. Employing Data Science tools to enrich the user experience, the project delves into the intricate details of Pokemon characteristics, offering insights into types, abilities, and statistics. The endeavor focuses on creating an engaging and user-friendly application through the implementation of interactive features and visualizations.
         </p>
         <p>
-          2.) Using Python, Matplotlib, and Seaborn I created a data analysis project to aid in selecting a competitive pokemon team based on type/generation through the creation of comparative boxplots and barcharts using a pokemon dataset from Kaggle.
+          - Using Python, Matplotlib, and Seaborn I created a data analysis project to aid in selecting a competitive pokemon team based on type/generation through the creation of comparative boxplots and barcharts using a pokemon dataset from Kaggle.
         </p>
         <p>
-        Zillow Housing Prices Predictive Modeling Full Stack Application (Predictr):
+          - Utilized Python, Matplotlib, and Seaborn to construct a sophisticated data analysis project designed to assist trainers in selecting competitive Pokemon teams. Leveraging a Pokemon
+dataset sourced from Kaggle, the analysis incorporates comparative boxplots and barcharts to visualize type and generation-based insights. This data-driven approach facilitates
+decision-making for trainers by providing a nuanced perspective on team composition, taking into account strengths and weaknesses.
+        </p>
+        <p>
+          - Zillow Housing Prices Predictive Modeling Full Stack Application (Predictr):
 - This project leverages scikit-learn and Python data science tools to predict housing market trends in Richmond, VA over 1, 5, and 10 years, with a unique focus on real-time data acquisition through web scraping of Zillow search results cards. Employing advanced machine learning models, including Linear Regression, Decision Trees, Random Forests, and Gradient Boosting, the project encompasses thorough feature engineering and model optimization. The Full Stack Application integrates these models, providing an interactive platform for users to explore and analyze forecasted housing market scenarios. Efforts are concentrated on efficient data manipulation and insightful visualization using matplotlib, ensuring users receive personalized insights and an in-depth understanding of the Richmond, VA housing market dynamics.
         </p>
-
-        <p className="section-content">Full Stack Web Development Projects:</p>
-          <p>Created a fully functional Pokemon Battle Simulator where you can select either Gengar or Nidorino, then battle the pokemon you did not select. There are actual stats from the games, status effects, it is full turn based with psuedo-computer player AI logic.</p>
+        <p>- Engineered a fully functional Pokemon Battle Simulator offering users the choice between Gengar and Nidorino, allowing them to battle the Pokemon they didn't select. The simulator incorporates real in-game statistics, status effects, and a comprehensive turn-based system, complete with computer player AI logic for a realistic and challenging experience. Additional features include turn skips, adaptive opponent algorithms for difficulty enhancement, Pokemon typing considerations, and critical hit mechanics.</p>
       </div>
     </div>
   );
