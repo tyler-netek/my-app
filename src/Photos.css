@@ -5,12 +5,13 @@
 
 .image-container {
   flex: 1;
-  margin: 5px; 
+  margin: 5px;
 }
 
 .image-container img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
 }
 
 @media (max-width: 600px) {
@@ -19,6 +20,14 @@
   }
 
   .image-container {
-    margin: 5px 0; 
+    margin: 5px 0;
   }
+
+  .image-container img {
+    height: auto;
+  }
+}
+
+.title {
+  text-align: center;
 }
