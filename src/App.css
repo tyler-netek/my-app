@@ -1,0 +1,88 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #67c6cb;
+    font-family: "Courier New", monospace;
+    color: #0091ff;
+  }
+  
+  .App {
+    text-align: center;
+    padding-top: 60px;
+  }
+  
+  .App-header {
+    padding: 20px;
+  }
+  
+  .matrix-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 2s;
+  }
+  
+  .matrix-warning {
+    color: rgb(196, 116, 116);
+    font-size: 16px;
+    opacity: 1;
+    transition: opacity 1s ease-out;
+  }
+  
+  .matrix-warning.fade-out {
+    opacity: 0;
+  }
+  
+  .matrix-title:hover {
+    opacity: 60%;
+    transition: 2s;
+  }
+  
+  .matrix-text {
+    font-size: 20px;
+    cursor: pointer;
+    transition: 2s;
+  }
+  
+  .matrix-text:hover {
+    opacity: 50%;
+    transition: 2s;
+  }
+  
+  .matrix-cursor {
+    animation: blink 0.8s infinite;
+  }
+  
+  .access-granted {
+    cursor: pointer;
+    transition: 3s;
+  }
+  
+  .access-granted:hover {
+    color: rgb(215, 116, 116);
+    transition: 3s;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .matrix-title {
+      font-size: 24px;
+    }
+  
+    .matrix-text {
+      font-size: 16px;
+    }
+  }
+  
+  
