@@ -1,71 +1,45 @@
 import React, { useEffect, useState } from 'react';
-import './App.css';
+import './About.css';
+import retroImage from './images/prof-pic.jpg'; 
 
-function App() {
-  const [typedUsername, setTypedUsername] = useState('Username: ');
-  const [showPassword, setShowPassword] = useState(false);
-  const [typedPassword, setTypedPassword] = useState('Password: ');
-  const [showAccessGranted, setShowAccessGranted] = useState(false);
-  const [showMatrixWarning, setShowMatrixWarning] = useState(true);
+function About() {
+  const [typedText, setTypedText] = useState('');
 
   useEffect(() => {
-    const usernameText = 'Tyler.Netek';
+    const text =
+      "I am an Associate Software Engineer at Capital One, and I'm also " +
+      "currently a Master of Science - Analytics Student at Georgia Tech. " +
+      "I'm fascinated with technology, and could not be more excited to see " +
+      "the progression of technology over the course of my lifetime. I am currently a Full Stack Developer, but I'm also very interested in Machine Learning/Artificial Intelligence and Data Science. I'm originally from Houston" +
+      ", Texas, but I currently reside in Richmond, Virginia.";
     let i = 0;
 
-    const typeUsernameText = () => {
-      if (i < usernameText.length) {
-        setTypedUsername((prevText) => prevText + usernameText.charAt(usernameText.length));
+    const typeText = () => {
+      if (i < text.length) {
+        setTypedText((prevText) => prevText + text.charAt(i));
         i++;
-        setTimeout(typeUsernameText, 90);
-      } else {
-        setShowPassword(true);
+        setTimeout(typeText, 38);
       }
     };
 
-    typeUsernameText();
+    typeText();
   }, []);
 
-  useEffect(() => {
-    if (showPassword) {
-      const passwordText = '***********';
-      let i = 0;
-
-      const typePasswordText = () => {
-        if (!showAccessGranted && i < passwordText.length) {
-          setTypedPassword((prevText) => prevText + passwordText.charAt(i));
-          i++;
-          setTimeout(typePasswordText, 90);
-        } else {
-          setShowAccessGranted(true);
-          setShowMatrixWarning(false);
-        }
-      };
-
-      typePasswordText();
-    }
-  }, [showPassword, showAccessGranted]);
-
   return (
-    <div className="App">
-      <header id="home" className="App-header">
-        {showMatrixWarning && (
-          <div className="matrix-warning">
-            Welcome back, Tyler. Please verify your identity by logging in.
-          </div>
-        )}
-        <h5 className="matrix-title">Login:</h5>
+    <div className="about-container">
+      <header id='about' className="about-header">
+        <h2 className="matrix-title">Hello, World!</h2>
         <p className="matrix-text">
-          <span>{typedUsername}</span>
-          <br />
-          <span>***********</span>
+          {typedText}
           <span className="matrix-cursor">_</span>
         </p>
-        {showAccessGranted && (
-          <div className="access-granted">Access Granted.</div>
-        )}
       </header>
+      <div className="about-image-container">
+        <img src={retroImage} alt="Retro" className="about-image" />
+      </div>
     </div>
   );
 }
 
-export default App;
+export default About;
+
