@@ -5,7 +5,7 @@ function Resume() {
   return (
     <div className="resume-container">
       <div id='resume' className="resume-header">
-        <h1>Tyler J. Netek</h1>
+        <h1>Tyler J. Netek, Aspiring Data Scientist</h1>
         <p>
           <a href="mailto:tyler.netek@outlook.com">tyler.netek@outlook.com</a> | (832) 299-8200 |{' '}
           <a href="https://www.linkedin.com/in/tylernetek/" target="_blank" rel="noopener noreferrer">
@@ -17,7 +17,7 @@ function Resume() {
       <div className="resume-section">
         <h2 className="section-title">EDUCATION & CERTIFICATIONS</h2>
         <p className="section-content">
-          M.S., Analytics (Data Science) – Georgia Institute of Technology, August 2023 - (May 2025 or December 2025)
+          M.S., Analytics (Data Science) – Georgia Institute of Technology, August 2023 - May 2025
         </p>
         <p className="section-content">
           Cumulative GPA: 4.00 / 4.00, Major GPA: 4.00 / 4.00
@@ -35,6 +35,11 @@ function Resume() {
             <li>Computing for Data Analytics (Python, Matplotlib, BeautifulSoup, Bokeh, Seaborn, Pandas, SQL, NumPy, SciPy)</li>
             <li>Analysis of Unstructured Data (NLP, Machine Learning, Web Scraping)</li>
             <li>Intro. to Analytics Modeling (R, classification, clustering, change detection, time series modeling, regression models, design of experiments, probability distributions, probability-based models and simulation, PCA, and optimization)</li>
+            <li>Data Mining and Statistical Learning (Neural Networks, Support Vector Machines)</li>
+            <li>Data and Visual Analytics (Databricks, Spark, AWS)</li>
+            <li>Regression Analysis (Advanced Regression, Computational Statistics)</li>
+            <li>Simulation (Advanced Mathematical Programming, Simulation Modeling)</li>
+            <li>Data Analytics for Business (R, Regression)</li>
           </ul>
           <p> University of Houston: </p>
           <ul>
@@ -52,43 +57,44 @@ function Resume() {
       <div className="resume-section">
         <h2 className="section-title">SKILLS</h2>
         <p className="section-content">
-          <strong>Languages:</strong> Python, JavaScript/TypeScript, Rust, Java, R, SQL, Bash, HTML/CSS, C++
+          <strong>Languages:</strong> Python, Java, JavaScript/TypeScript, R, SQL, Rust, Bash, HTML/CSS
         </p>
         <p className="section-content">
-          <strong>Frameworks/Libraries:</strong> React/Redux, Node/Deno, Next, Express, D3, Pandas, NumPy, Django, Flask, Yew.rs, Matplotlib, BeautifulSoup, SciPy, Seaborn, Bokeh, Tidyverse, R Shiny, Sci-Kit Learn, PyTorch, FastAPI, Keras, NLTK, TensorFlow
+          <strong>Frameworks/Libraries:</strong>Pandas, NumPy, SciPy, Sci-Kit Learn, PyTorch, PySpark, Spring Boot, Kafka, Hadoop, React, NLTK
         </p>
         <p className="section-content">
-          <strong>Tools:</strong> GitHub/Git, AWS, PostgreSQL, MongoDB, Docker, Jenkins, GraphQL, Visual Studio Code, Vim, Jupyter, Kubernetes, SQLAlchemy
+          <strong>Tools:</strong> GitHub/Git, AWS (Lambda, EC2, ECS, SNS, SQS, Fargate, S3, EMR, QuickSight, DynamoDB), Docker, Jenkins, Kubernetes, Databricks
         </p>
       </div>
 
       <div className="resume-section">
         <h2 className="section-title">EXPERIENCE</h2>
-        <h3>Associate Software Engineer – Capital One, Richmond, VA | August 2023 - Present</h3>
+        <h3>Associate Software Engineer – Capital One, Richmond, VA | June 2023 - Present</h3>
         <p>
-          - Collaborated with cross-functional teams to design and implement scalable software solutions, incorporating technologies such as React, Java, Spring, Express, MongoDB, Mongoose, and FastAPI, contributing to the enhancement of Capital One's tech stack.
+          - Led the migration of a legacy microservice codebase to Python 3.12, assuming ownership, and overseeing its maintenance and code reviews. This application re-validates metadata when given dataset CSV links, triggered by a scheduler Lambda via SQS, then populates a QuickSight dashboard.
         </p>
         <p>
-          - Utilized Agile methodologies and actively participated in sprint planning, ensuring the timely delivery of high-quality software products that met both technical and business requirements.
+          - Crafted a comprehensive dependency management system, parsing Python versions and OS details from Docker image URLs, utilizing the PyPi.org/JSON API  to verify and update dependencies within Pipfiles and Dockerfiles to ensure maximum compatibility and efficiency, while also providing error notifications for syntactical issues through command line interactions.
         </p>
         <p>
-          - Conducted comprehensive code reviews, identifying areas for improvement and implementing best practices to enhance codebase efficiency and maintainability. Applied expertise in React for front-end development and Express for back-end development.
+          - Implemented PySpark for large-scale data transformations, identifying and resolving a critical bug that caused exponential row duplication, by meticulously disassembling data frames into manageable chunks and reassembling them, effectively preventing memory overallocation issues within the constraints of maximum Lambda allocations.
         </p>
         <p>
-          - Implemented PySpark for large-scale data transformation and manipulation, leveraging distributed computing capabilities for efficient processing. Single-handedly tackled a
-formidable challenge by resolving a long-standing application-breaking bug through exhaustive optimization and development of PySpark migrations. This initiative ensured
-seamless data processing and prevented workflow interruptions, demonstrating my unique problem-solving abilities and expertise in utilizing Python.
+          - Engineered a specialized API testing tool akin to Postman using Python, with libraries including Requests, os, and configparser. Integrated with our authentication system, the tool auto-navigates directories and executes commands to renew OAuth2 tokens older than 30 minutes, parsing updates from a secure configuration file to enhance security and testing efficiency.
         </p>
         <p>
-          - Continuously learning and implementing cutting-edge data science techniques and algorithms to enhance the capabilities of machine learning models and data processing
-pipelines. Solved problems across the entire data pipeline, from data engineering to data science/analytics, and backend architecture.
+          - Leveraged Databricks SQL and Python to transform JSON data into PySpark data frames, automating data deployment to S3 via SQS and Lambda within EMR, enhancing data querying for internal dashboards and showcasing expertise in data pipeline development from engineering to analytics.
         </p>
         <p>
-          - Deployed and managed containerized applications on AWS using services such as Fargate, EC2, and ECS, optimizing for scalability and reliability, and leveraged AWS
-Lambda for serverless computing, automating tasks and enhancing system efficiency. Earned AWS Solutions Architect - Associate Certification.
+          - Spearheaded a Spike Request for Comments (RFC) process to develop a new feature from 0 to 1 implementation, collaborating with product teams to refine requirements.
         </p>
-
-        <h3>Cloud Analyst, Security & Controls – Oracle, Austin, TX | July 2022 – August 2023</h3>
+        <p>
+          - Defined technical specifications and crafted Jira tickets for each component. Designed and implemented a Python solution using asynchronous programming to optimize data processing, while removing unnecessary complexity in the codebase. Centralized the core function of the code to a generator for improved manageability and developer-friendliness. This included making two API calls, organizing dataset IDs using defaultdict(list), and implementing an async __aiter__ class generator to prevent duplication and yield data row by row rather than collecting all then calling all.
+        </p>
+        <p>
+          - Enhanced CI/CD pipelines using Jenkins, Git, and Docker; debugged builds and utilized AWS CloudWatch for monitoring, optimizing software deployment and operational efficiency.
+        </p>
+        <h3>Cloud Analyst, Security & Controls – Oracle, Austin, TX | May 2022 – June 2023</h3>
         <p>
           - Developed a Python application using Oracle Fusion Cloud REST APIs, Requests, Pandas, and NumPy to automate various consulting tasks. The application efficiently extracted JSON data using get requests and converted it to a dataframe in Excel. Utilizing NumPy, the code iterated through the data to generate payloads for post requests. This optimized automation significantly reduced processing time by approximately 75% or more depending on payload size, streamlining tasks like user creation, role provisioning, and security context type/value provisioning.
         </p>
@@ -112,21 +118,22 @@ Lambda for serverless computing, automating tasks and enhancing system efficienc
       <div className="resume-section">
         <h2 className="section-title">PROJECTS</h2>
         <p>
-          - Currently crafting a comprehensive Pokedex application that seamlessly integrates the PokeAPI with cutting-edge Data Science Libraries and Full Stack JavaScript frameworks. Employing Data Science tools to enrich the user experience, the project delves into the intricate details of Pokemon characteristics, offering insights into types, abilities, and statistics. The endeavor focuses on creating an engaging and user-friendly application through the implementation of interactive features and visualizations.
+          - [Zillow Housing Prices Predictive Modeling Full Stack Application (Predictr)]: This project leverages scikit-learn and Python data science tools to predict housing market trends in Richmond, VA over 1, 5, and 10 years, with a unique focus on real-time data acquisition through web scraping of Zillow search results cards. Employing advanced machine learning models, including Linear Regression, Decision Trees, Random Forests, and Gradient Boosting, the project encompasses thorough feature engineering and model optimization. The Full Stack Application integrates these models, providing an interactive platform for users to explore and analyze forecasted housing market scenarios. Efforts are concentrated on efficient data manipulation and insightful visualization using matplotlib, ensuring users receive personalized insights and an in-depth understanding of the Richmond, VA housing market dynamics.
         </p>
         <p>
-          - Using Python, Matplotlib, and Seaborn I created a data analysis project to aid in selecting a competitive pokemon team based on type/generation through the creation of comparative boxplots and barcharts using a pokemon dataset from Kaggle.
+          - [Pokemon Battle Simulator]: Engineered a fully functional Pokemon Battle Simulator offering users a roster of pokemon to choose from to build their team.. The simulator incorporates real in-game statistics, status effects, and a comprehensive turn-based system, complete with computer player AI logic for a realistic and challenging experience. Additional features include turn skips, adaptive opponent algorithms for difficulty enhancement, Pokemon typing considerations, and critical hit mechanics. 
         </p>
         <p>
-          - Utilized Python, Matplotlib, and Seaborn to construct a sophisticated data analysis project designed to assist trainers in selecting competitive Pokemon teams. Leveraging a Pokemon
+          - [Competitive Pokemon Team Data Analysis]: Utilized Python, Matplotlib, and Seaborn to construct a sophisticated data analysis project designed to assist trainers in selecting competitive Pokemon teams. Leveraging a Pokemon
 dataset sourced from Kaggle, the analysis incorporates comparative boxplots and barcharts to visualize type and generation-based insights. This data-driven approach facilitates
 decision-making for trainers by providing a nuanced perspective on team composition, taking into account strengths and weaknesses.
         </p>
         <p>
-          - Zillow Housing Prices Predictive Modeling Full Stack Application (Predictr):
-- This project leverages scikit-learn and Python data science tools to predict housing market trends in Richmond, VA over 1, 5, and 10 years, with a unique focus on real-time data acquisition through web scraping of Zillow search results cards. Employing advanced machine learning models, including Linear Regression, Decision Trees, Random Forests, and Gradient Boosting, the project encompasses thorough feature engineering and model optimization. The Full Stack Application integrates these models, providing an interactive platform for users to explore and analyze forecasted housing market scenarios. Efforts are concentrated on efficient data manipulation and insightful visualization using matplotlib, ensuring users receive personalized insights and an in-depth understanding of the Richmond, VA housing market dynamics.
+         [Miscellaneous]: Developed a full-stack (React/Django) website for a Houston, TX coffee company, featuring product customization options, social features (e.g., reviews via Yelp API), integrated Google Analytics for website tracking, and built a secure, internal React dashboard for visualizing key metrics, accessible via user authentication (JWT) and PSQL user/pass storage (is_admin).
         </p>
-        <p>- Engineered a fully functional Pokemon Battle Simulator offering users the choice between Gengar and Nidorino, allowing them to battle the Pokemon they didn't select. The simulator incorporates real in-game statistics, status effects, and a comprehensive turn-based system, complete with computer player AI logic for a realistic and challenging experience. Additional features include turn skips, adaptive opponent algorithms for difficulty enhancement, Pokemon typing considerations, and critical hit mechanics.</p>
+        <p>
+         [Applied Analytics Practicum (Georgia Tech)]: Collaborated with a partner organization on an applied analytics project, leveraging data-driven techniques to address a key business challenge. 
+        </p>
       </div>
     </div>
   );
