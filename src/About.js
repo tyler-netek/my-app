@@ -28,7 +28,7 @@ function About() {
   return (
     <div className="about-container">
       <header id='about' className="about-header">
-        <h2 className="matrix-title"></h2>
+        <h2 className="matrix-title">About Me:</h2>
         <p className="matrix-text">
           {typedText}
           <span className="matrix-cursor">_</span>
